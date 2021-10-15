@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31808.319
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Core", "01. Core", "{0CD0FA13-3A54-4224-9BE2-F586C02A38F9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoyalRecipe.Core.Domain", "01. Core\RoyalRecipe.Core.Domain\RoyalRecipe.Core.Domain.csproj", "{6AF5D96E-A79F-4E71-A354-B356C247C3ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Infrastructure", "02. Infrastructure", "{CF0C849C-3153-4537-9E6C-3D488F46B8B8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoyalRecipe.Infrastructures.Data.Sql", "02. Infrastructure\RoyalRecipe.Infrastructures.Data.Sql\RoyalRecipe.Infrastructures.Data.Sql.csproj", "{92BFCE8F-43EA-4B0E-999B-36CEBF250BB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Endpoints", "03. Endpoints", "{A96C6EA6-3673-476D-8A29-4866F0A5D5BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoyalRecipe.Endpoints.API", "03. Endpoints\RoyalRecipe.Endpoints.API\RoyalRecipe.Endpoints.API.csproj", "{EAAF36D2-89B8-4065-A220-05EFF6E94F52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoyalRecipe.Core.ApplicationServices", "01. Core\RoyalRecipe.Core.ApplicationService\RoyalRecipe.Core.ApplicationServices.csproj", "{3E7D3388-BC66-4A2C-84F3-595C1F63EFFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6AF5D96E-A79F-4E71-A354-B356C247C3ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AF5D96E-A79F-4E71-A354-B356C247C3ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AF5D96E-A79F-4E71-A354-B356C247C3ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AF5D96E-A79F-4E71-A354-B356C247C3ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92BFCE8F-43EA-4B0E-999B-36CEBF250BB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92BFCE8F-43EA-4B0E-999B-36CEBF250BB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92BFCE8F-43EA-4B0E-999B-36CEBF250BB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92BFCE8F-43EA-4B0E-999B-36CEBF250BB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAAF36D2-89B8-4065-A220-05EFF6E94F52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAAF36D2-89B8-4065-A220-05EFF6E94F52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAAF36D2-89B8-4065-A220-05EFF6E94F52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAAF36D2-89B8-4065-A220-05EFF6E94F52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E7D3388-BC66-4A2C-84F3-595C1F63EFFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E7D3388-BC66-4A2C-84F3-595C1F63EFFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E7D3388-BC66-4A2C-84F3-595C1F63EFFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E7D3388-BC66-4A2C-84F3-595C1F63EFFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6AF5D96E-A79F-4E71-A354-B356C247C3ED} = {0CD0FA13-3A54-4224-9BE2-F586C02A38F9}
+		{92BFCE8F-43EA-4B0E-999B-36CEBF250BB6} = {CF0C849C-3153-4537-9E6C-3D488F46B8B8}
+		{EAAF36D2-89B8-4065-A220-05EFF6E94F52} = {A96C6EA6-3673-476D-8A29-4866F0A5D5BF}
+		{3E7D3388-BC66-4A2C-84F3-595C1F63EFFD} = {0CD0FA13-3A54-4224-9BE2-F586C02A38F9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1A33497-BAB0-46AF-9861-E63A871547A4}
+	EndGlobalSection
+EndGlobal
